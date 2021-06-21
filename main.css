@@ -1,0 +1,108 @@
+/*menu*/
+.main-nav2 {
+    background-color: #031634;
+    padding: 5px;
+}
+.font-format{
+    font-family: 'Lato', sans-serif;
+    color: #B3E2DC;
+}
+.main-nav2-li :hover {
+    background-color: #00417D;
+    opacity: 0.4;
+}
+
+/*portada*/
+.contenedor-portada {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-image: url(img/imagen1.jpg);
+    background-size: 150%;
+    animation: movimiento 20s infinite linear alternate;
+}
+@keyframes movimiento {
+    from{
+        background-position: bottom left;
+    }
+    to{
+        background-position: top right;
+    }
+}
+.capa-gradiente {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    background: -webkit-linear-gradient(left, black, #01A7BD);
+    opacity: 0.5;
+
+}
+.portada-detalles{
+    width: 1000px;
+    position: relative;
+    margin:  0 auto;
+
+}
+.detalles {
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    top: 140px;
+    color: #B3E2DC;
+}
+/*sectio cards*/
+section h2{
+     margin-top: 30px;
+     margin-bottom: 10px;
+     color: #B3E2DC;
+     font-weight: bolder;
+     
+}
+.subtitulos {
+    background-color: blue;
+    background-image:linear-gradient(to right,#031634, #01A7BD);
+}
+.flex-cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cards{
+    max-width: 130px;
+    border: 1px solid black;
+    border-radius: 5%;
+    box-shadow: 0px 0px 4px 4px black;
+    text-align: center;
+    font-family:'Lato', sans-serif;
+    margin: 30px;
+}
+.img-cards{
+    width: 120px;
+    height: 120px;
+    border-radius: 5%;
+    box-shadow: solid 10px black;
+}
+.cards p {
+    width:120px;
+    text-align: center;
+    font-size: 12px;
+    color:#031634;
+    padding: 10px;
+}
+.cards h4 {
+    width:120px;
+    color:#031634;
+    text-align: center;
+}
+.Button-cards{
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    background-color: #031634;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    margin-bottom: 5px;
+
+}
+
