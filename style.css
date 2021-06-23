@@ -28,6 +28,12 @@ ul {
     display: flex;
     align-items: center;
     }
+    .main-nav2-ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        }
 .main-nav-a {
      padding: 5px;
      display: inline-block;
@@ -92,6 +98,11 @@ h3 {
         align-items: flex-start;
     
 }
+.main-nav2-ul {
+    width: 100%;
+    flex-direction: column;
+    align-items: center; 
+   }
 .icon-nav-logo {
     width: 30px;
     height: 30px;
