@@ -56,6 +56,7 @@
 /*sectio cards*/
 section h2{
      margin-top: 30px;
+     margin-left: 10px;
      margin-bottom: 10px;
      color: #B3E2DC;
      font-weight: bolder;
@@ -112,7 +113,13 @@ section h2{
 @media (max-width: 768px){
     .detalles {
         width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .flex-cards {
         flex-direction: column;
         align-items: center;
     }
 }
+
