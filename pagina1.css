@@ -16,4 +16,28 @@
 }
 p{
     text-align: justify;
+
+}
+.prod-img{
+    margin: 10px;
+}
+
+@media (max-width: 768px){
+    .productos-flex{
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .prod-img {
+        display: flex;
+        align-items: center;
+    }
+    .image-disco {
+        width: 200px;
+        height: 200px;
+    }
+    .spotify iframe{
+        margin: 10px;
+        width: 300px;
+    }
 }
