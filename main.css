@@ -14,7 +14,6 @@
 
 /*portada*/
 .contenedor-portada {
-    width: 100%;
     height: 400px;
     position: relative;
     background-image: url(img/imagen1.jpg);
@@ -76,21 +75,35 @@ section h2{
 .flex-cards{
     display: flex;
     justify-content: space-evenly;
-}
+    }
 .cards{
-    max-width: 130px;
-    border: 1px solid black;
-    border-radius: 5%;
-    box-shadow: 0px 0px 4px 4px black;
+    width: 130px;
+    overflow: hidden;
+    background-color: #B3E2DC;
+    border: 0.7px solid black;
+    border-radius: 6%;
+    box-shadow: 4px 4px 10px 2px black;
     text-align: center;
     font-family:'Lato', sans-serif;
     margin: 30px;
+    position: relative;
+}
+.cards_fondo {
+    width: 130px;
+    height: 100px;
+    background-color: cadetblue;
+    border-top-left-radius: 6%;
+    border-top-right-radius: 6%;
 }
 .img-cards{
-    width: 120px;
-    height: 120px;
-    border-radius: 5%;
-    box-shadow: solid 10px black;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin-top: -80px;
+    box-shadow: 4px 4px 5px 2px black;
+    
+    /*border-top-left-radius: 50%;
+    border-top-right-radius: 50%;*/
 }
 .cards p {
     width:120px;
@@ -101,6 +114,7 @@ section h2{
 }
 .cards h4 {
     width:120px;
+    margin-top: 5px;
     color:#031634;
     text-align: center;
 }
@@ -109,11 +123,12 @@ section h2{
     border: none;
     border-radius: 30px;
     background-color: #031634;
+    box-shadow: 2px 2px 5px 0px black;
     padding: 5px 20px;
     text-decoration: none;
     font-size: 12px;
     color: white;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 
 }
 /*footer*/
@@ -128,7 +143,10 @@ section h2{
 .info-general {
     width: 100%;
     text-align: center;
-    font-size: 14px;
+    font-size: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .info-general2 {
     width: 100%;
@@ -176,19 +194,29 @@ section h2{
         text-align: center;
     }
     .cards{
-        max-width: 200px;
-        border: 1px solid black;
+        width: 200px;
+        background-color: #B3E2DC;
+        border: 0.5px solid black;
         border-radius: 5%;
-        box-shadow: 0px 0px 4px 4px black;
+        box-shadow: 4px 4px 10px 2px black;
         text-align: center;
         font-family:'Lato', sans-serif;
-        margin: 10px;
+        margin: 10px;        
+    }
+    .cards_fondo {
+        width: 198px;
+        height: 200px;
+        background-color: cadetblue;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
     }
     .img-cards{
-        width: 200px;
-        height: 200px;
-        border-radius: 5%;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
         box-shadow: solid 10px black;
+        margin-top: -160px;
+        
     }
     .cards p {
         width:200px;
@@ -211,7 +239,7 @@ section h2{
         text-decoration: none;
         font-size: 12px;
         color: white;
-        margin-bottom: 5px;
+        margin-bottom: 15px;
     }
 }
 

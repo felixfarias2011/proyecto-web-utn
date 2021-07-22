@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="pagina1.html">
+    <link rel="stylesheet" href="pagina1.css">
     <link rel="shortcut icon" href="icon/vinilo.png">
     <title>Proyecto Diseño Web</title>
 </head>
@@ -18,21 +19,13 @@
             <div class="contenedor">
                 <div class="cont-flex">
                     <div class="left">
-                        <ul class="main-nav-ul">
-                            <li class="main-nav-li">
-                                <img src="icon/vinilo.png" class="icon-nav-logo" alt="icono de disco de vinilo">
-                            </li>   
-                            <li class="main-nav-li">
-                                <h1>Ouh Ma!! Music Store</h1> 
-                            </li>
-                        </ul>
+                        <img src="icon/vinilo.png" class="icon-nav-logo" alt="icono de disco de vinilo">
+                        <h1>Ouh Ma!! Music Store</h1> 
                     </div>
                     <div class="middle">
-                        <ul class="main-nav-ul">
-                            <li class="main-nav-li">
-                                <input type="search" class="input-search" placeholder="Búsqueda">  
-                            </li>
-                        </ul>
+                        <form action=""> 
+                            <input type="search" class="input-search" placeholder="Búsqueda">  
+                        </form>
                     </div>
                     <div class="right">
                         <ul class="main-nav-ul">                    
@@ -60,19 +53,16 @@
                             <a href="index.html" class="main-nav-a font-format">Home</a>
                         </li>
                         <li class="main-nav2-li">
-                            <a href="#" class="main-nav-a font-format">Forthcoming</a>
+                            <a href="#NewR" class="main-nav-a font-format">New Releases</a>
                         </li>
                         <li class="main-nav2-li">
-                            <a href="#" class="main-nav-a font-format">Genre</a>
+                            <a href="#NewHR" class="main-nav-a font-format">House News</a>
                         </li>
                         <li class="main-nav2-li">
-                            <a href="#" class="main-nav-a font-format">Merchandasing</a>
+                            <a href="#Missed" class="main-nav-a font-format">Missed</a>
                         </li>
                         <li class="main-nav2-li">
                             <a href="#" class="main-nav-a font-format">Gift Card</a>
-                        </li>
-                        <li class="main-nav2-li">
-                            <a href="#" class="main-nav-a font-format">Equipment</a>
                         </li>
                     </ul>
             </div>
@@ -92,153 +82,168 @@
     </header>
     <main>  
         <section class="contenedor">
-            <div class="subtitulos">
+        <div id="NewR"class="subtitulos">
                 <h2>News</h2>
             </div>  
-            <h3 class="subtitulos-text">Check out our weekly arrivals</h3>
+            <h3  class="subtitulos-text">Check out our weekly arrivals</h3>
             <div class="flex-cards">
                 <div class="cards">
+                    <div class="cards_fondo"></div>
                     <a href="pagina1.html"><img class="img-cards" src="discos/1.jpg" alt="imagen tapa disco 1"></a>
                     <h4>DJ Deep, Traumer</h4>
                     <p>Label: Tatum TTM002
                         Styles: Minimal House
                     </p>
-                    <a class="Button-cards" href="pagina1.html">Listen</a>
+                    <a  class="Button-cards" href="pagina1.html">Listen</a>
                 </div>
                 <div class="cards">
-                    <a href="pagina1.html/#disco2"><img class="img-cards"src="discos/2.jpg" alt="imagen tapa disco 2"></a>
+                    <div class="cards_fondo"></div>
+                    <a href="pagina1.html"><img class="img-cards"src="discos/2.jpg" alt="imagen tapa disco 2"></a>
                     <h4>DJ Deep, Traumer</h4>
                     <p>Label: Tatum TTM002
                         Styles: Minimal House
                     </p>
-                    <a class="Button-cards" href="#disco2">Listen</a>
+                    <a  class="Button-cards" href="pagina1.html">Listen</a>
                 </div>
                 <div class="cards">
-                    <a href="#"><img class="img-cards"src="discos/3.jpg" alt="imagen tapa disco 3"></a>
+                    <div class="cards_fondo"></div>
+                    <a href="pagina1.html"><img class="img-cards"src="discos/3.jpg" alt="imagen tapa disco 3"></a>
                     <h4>DJ Deep, Traumer</h4>
                     <p>Label: Tatum TTM002
                         Styles: Minimal House
                     </p>
-                    <a class="Button-cards" href="#">Listen</a>
+                    <a  class="Button-cards" href="pagina1.html">Listen</a>
                 </div>
                 <div class="cards">
-                    <a href="#"><img class="img-cards"src="discos/4.jpg" alt="imagen tapa disco 4"></a>
+                    <div class="cards_fondo"></div>
+                    <a href="pagina1.html"><img class="img-cards"src="discos/4.jpg" alt="imagen tapa disco 4"></a>
                     <h4>DJ Deep, Traumer</h4>
                     <p>Label: Tatum TTM002
                         Styles: Minimal House
                     </p>
-                    <a class="Button-cards" href="#">Listen</a>
+                    <a  class="Button-cards" href="pagina1.html">Listen</a>
                 </div>
                 <div class="cards">
-                    <a href="#"><img class="img-cards"src="discos/5.jpg" alt="imagen tapa disco 5"></a>
+                    <div class="cards_fondo"></div>
+                    <a href="pagina1.html"><img class="img-cards"src="discos/5.jpg" alt="imagen tapa disco 5"></a>
                     <h4>DJ Deep, Traumer</h4>
                     <p>Label: Tatum TTM002
                         Styles: Minimal House
                     </p>
-                    <a class="Button-cards" href="#">Listen</a>
+                    <a  class="Button-cards" href="pagina1.html">Listen</a>
                 </div>
             </div>
         </section>
     <section class="contenedor">
-        <div class="subtitulos">
+        <div id="NewHR" class="subtitulos">
             <h2>In-house releases</h2>
         </div>  
-        <h3 class="subtitulos-text">All releases from labels we distribute</h3>
+        <h3  class="subtitulos-text">All releases from labels we distribute</h3>
         <div class="flex-cards">
             <div class="cards">
-                <a href="#"><img class="img-cards" src="discos/1.jpg" alt="imagen tapa disco 1"></a>
+                <div class="cards_fondo"></div>
+                <a href="pagina2.html"><img class="img-cards" src="discos/6.jpg" alt="imagen tapa disco 1"></a>
                     <h4>DJ Deep, Traumer</h4>
                     <p>Label: Tatum TTM002
                         Styles: Minimal House
                     </p>
-                    <a class="Button-cards" href="#">Listen</a>
+                    <a class="Button-cards" href="pagina2.html">Listen</a>
             </div>
             <div class="cards">
-                <a href="#"><img class="img-cards"src="discos/2.jpg" alt="imagen tapa disco 2"></a>
+                <div class="cards_fondo"></div>
+                <a href="pagina2.html"><img class="img-cards"src="discos/7.jpg" alt="imagen tapa disco 2"></a>
                 <h4>DJ Deep, Traumer</h4>
                 <p>Label: Tatum TTM002
                     Styles: Minimal House
                 </p>
-                <a class="Button-cards" href="#">Listen</a>
+                <a class="Button-cards" href="pagina2.html">Listen</a>
             </div>
             <div class="cards">
-                <a href="#"><img class="img-cards"src="discos/3.jpg" alt="imagen tapa disco 3"></a>
+                <div class="cards_fondo"></div>
+                <a href="pagina2.html"><img class="img-cards"src="discos/8.jpg" alt="imagen tapa disco 3"></a>
                 <h4>DJ Deep, Traumer</h4>
                 <p>Label: Tatum TTM002
                     Styles: Minimal House
                 </p>
-                <a class="Button-cards" href="#">Listen</a>
+                <a class="Button-cards" href="pagina2.html">Listen</a>
             </div>
             <div class="cards">
-                <a href="#"><img class="img-cards"src="discos/4.jpg" alt="imagen tapa disco 4"></a>
+                <div class="cards_fondo"></div>
+                <a href="pagina2.html"><img class="img-cards"src="discos/9.jpg" alt="imagen tapa disco 4"></a>
                 <h4>DJ Deep, Traumer</h4>
                 <p>Label: Tatum TTM002
                     Styles: Minimal House
                 </p>
-                <a class="Button-cards" href="#">Listen</a>
+                <a class="Button-cards" href="pagina2.html">Listen</a>
             </div>
             <div class="cards">
-                <a href="#"><img class="img-cards"src="discos/5.jpg" alt="imagen tapa disco 5"></a>
+                <div class="cards_fondo"></div>
+                <a href="pagina3.html"><img class="img-cards"src="discos/10.jpg" alt="imagen tapa disco 5"></a>
                 <h4>DJ Deep, Traumer</h4>
                 <p>Label: Tatum TTM002
                     Styles: Minimal House
                 </p>
-                <a class="Button-cards" href="#">Listen</a>
+                <a class="Button-cards" href="pagina2.html">Listen</a>
             </div>
         </div>
     </section>
     <section class="contenedor">
-        <div class="subtitulos">
-            <h2>Back in stock</h2>
+        <div  class="subtitulos">
+            <h2 id="Missed">Back in stock</h2>
         </div>  
-        <h3 class="subtitulos-text">Missed one of those? They are back!
+        <h3  class="subtitulos-text">Missed one of those? They are back!
             VIEW ALL
             </h3>
         <div class="flex-cards">
             <div class="cards">
-                <a href="#"><img class="img-cards" src="discos/1.jpg" alt="imagen tapa disco 1"></a>
+                <div class="cards_fondo"></div>
+                <a href="pagina3.html"><img class="img-cards" src="discos/1.jpg" alt="imagen tapa disco 1"></a>
                 <h4>DJ Deep, Traumer</h4>
                 <p>Label: Tatum TTM002
                     Styles: Minimal House
                 </p>
-                <a class="Button-cards" href="#">Listen</a>
+                <a class="Button-cards" href="pagina3.html">Listen</a>
             </div>
             <div class="cards">
-                <a href="#"><img class="img-cards"src="discos/2.jpg" alt="imagen tapa disco 2"></a>
+                <div class="cards_fondo"></div>
+                <a href="pagina3.html"><img class="img-cards"src="discos/2.jpg" alt="imagen tapa disco 2"></a>
                 <h4>DJ Deep, Traumer</h4>
                 <p>Label: Tatum TTM002
                     Styles: Minimal House
                 </p>
-                <a class="Button-cards" href="#">Listen</a>
+                <a class="Button-cards" href="pagina3.html">Listen</a>
             </div>
             <div class="cards">
-                <a href="#"><img class="img-cards"src="discos/3.jpg" alt="imagen tapa disco 3"></a>
+                <div class="cards_fondo"></div>
+                <a href="pagina3.html"><img class="img-cards"src="discos/3.jpg" alt="imagen tapa disco 3"></a>
                 <h4>DJ Deep, Traumer</h4>
                 <p>Label: Tatum TTM002
                     Styles: Minimal House
                 </p>
-                <a class="Button-cards" href="#">Listen</a>
+                <a class="Button-cards" href="pagina3.html">Listen</a>
             </div>
             <div class="cards">
+                <div class="cards_fondo"></div>
                 <a href="#"><img class="img-cards"src="discos/4.jpg" alt="imagen tapa disco 4"></a>
                 <h4>DJ Deep, Traumer</h4>
                 <p>Label: Tatum TTM002
                     Styles: Minimal House
                 </p>
-                <a class="Button-cards" href="#">Listen</a>
+                <a class="Button-cards" href="pagina3.html">Listen</a>
             </div>
             <div class="cards">
+                <div class="cards_fondo"></div>
                 <a href="#"><img class="img-cards"src="discos/5.jpg" alt="imagen tapa disco 5"></a>
                 <h4>DJ Deep, Traumer</h4>
                 <p>Label: Tatum TTM002
                     Styles: Minimal House
                 </p>
-                <a class="Button-cards" href="#">Listen</a>
+                <a class="Button-cards" href="pagina3.html">Listen</a>
             </div>
         </div>
     </section>
     </section>
-</main>
+    </main>
     <footer class="main-nav">
         <div class="contenedor">
             <div class="cont-flex-footer">
@@ -266,7 +271,7 @@
                         3ème cour du fond <br>
                         75018 Paris
                     </p>
-
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2476.034184060697!2d-69.22854938447244!3d-51.64089905055987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbdb6fbdd7df1e843%3A0x7893dfd0f88eaa3e!2sJaramillo%20275%2C%20R%C3%ADo%20Gallegos%2C%20Santa%20Cruz!5e0!3m2!1ses!2sar!4v1626920083397!5m2!1ses!2sar" width="70" height="70" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     
                 </div>
                 <div class="info-general2">
@@ -279,9 +284,7 @@
                     <h5>
                         CALL US
                     </h5>
-                    <H6>
-                        +33 1 80 06 64 01
-                    </H6>
+                    <a href="tel:2966279214" class="btnllamar" onClick="return (navigator.userAgent.match(/Android | iPhone | movile /i)) != null;" >2966279214</a>
                     <h5>
                         MONDAY-SATURDAY
                     </h5>
@@ -291,6 +294,7 @@
                 </div>
             </div> 
         </div>
-    </footer>
-</body>
+    </footer>      
+          </body>
+          
 </html>
